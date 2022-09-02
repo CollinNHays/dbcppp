@@ -39,6 +39,8 @@ file(GLOB libxmlmm_src
 add_library(libxmlmm SHARED "")
 target_link_libraries(libxmlmm LibXml2)
 
+link_libraries(stdc++fs)
+
 target_sources("libxmlmm"
     PRIVATE ${libxmlmm_header}
     PRIVATE ${libxmlmm_src}
