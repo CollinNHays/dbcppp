@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.12)
 project("libdbcppp" VERSION 0.1.0)
 
 option(build_tests "Build tests" OFF)
-option(build_examples "Build examples" ON)
+option(build_examples "Build examples" OFF)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_STATIC_LIBRARY_PREFIX "")
